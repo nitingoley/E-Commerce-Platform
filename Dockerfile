@@ -8,8 +8,14 @@ WORKDIR /app/frontend
 COPY frontend/package*.json ./
 RUN npm install
 
+# Fix permission issues for node_modules binaries
+RUN chmod -R 755 node_modules && \
+    chmod +x node_modules/.bin/* 2>/dev/null || true
+
 COPY frontend ./
-RUN npm run build
+
+# Use npx to avoid permission issues with vite binary
+RUN npx vite build
 
 # -------------------------
 # Stage 2: Setup Backend
