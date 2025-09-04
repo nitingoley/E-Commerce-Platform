@@ -219,7 +219,7 @@ volumes:
 
 ## 📞 Support
 
-For support, email support@yourdomain.com or join our Slack channel.
+For support, email nitingoley42@gmail.com or join our Slack channel.
 
 ## 🗺️ Roadmap
 
@@ -242,5 +242,5 @@ For support, email support@yourdomain.com or join our Slack channel.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/mern-ecommerce.git
+git clone  https://github.com/nitingoley/E-Commerce-Platform
 cd mern-ecommerce
