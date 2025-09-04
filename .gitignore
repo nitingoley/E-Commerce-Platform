@@ -1,0 +1,17 @@
+# Create a comprehensive .gitignore for Node.js
+echo node_modules/ > .gitignore
+echo .env >> .gitignore
+echo dist/ >> .gitignore
+echo build/ >> .gitignore
+echo .DS_Store >> .gitignore
+echo npm-debug.log* >> .gitignore
+echo yarn-debug.log* >> .gitignore
+echo yarn-error.log* >> .gitignore
+echo .env.local >> .gitignore
+echo .env.development.local >> .gitignore
+echo .env.test.local >> .gitignore
+echo .env.production.local >> .gitignore
+echo .vscode/ >> .gitignore
+echo .idea/ >> .gitignore
+echo *.log >> .gitignore
+echo logs/ >> .gitignore
